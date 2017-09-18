@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+body{
+    background-color: #161618;
+    color: lightgrey;
+    font-family: 'Open Sans', sans-serif;
+}
+h2,h3{
+    margin: 0;
+}
+h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: darkgray;
+}
+h2{
+    font-size: 26px;
+    font-weight: 600;
+    display: inline-block;
+}
+main{
+    width: 350px;
+    margin: 0 auto;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section article{
+    width: 50%;
+    margin-bottom: 20px;
+}
+section article div{
+    display: inline-block;
+    font-size: 26px;
+    color: #444;
+    margin-left: 10px;
+}
+#ch-threads-minus,
+#ch-threads-plus{
+    color: orangered;
+    font-size: 32px;
+    cursor: pointer;
+    border: none !important;
+    background-color: transparent;
+    padding: 1px;
+    outline:0;
+}
+#ch-toggle{
+    display: block;
+    height: 40px;
+    width: 100%;
+    border: 0;
+    color: lightgrey;
+    font-size: 18px;
+}
+#ch-toggle.ch-enabled{
+    background-color: darkgreen;
+}
+#ch-toggle.ch-disabled{
+    background-color: darkred;
+}
